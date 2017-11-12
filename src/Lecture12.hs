@@ -10,6 +10,7 @@ import Prelude hiding (Functor(..), Applicative(..), ($), (<$>), lookup)
 --------------------------------------------------------------------------------
 -- Preliminaries
 
+infixr 0 $
 ($) :: (a -> b) -> a -> b
 f $ x = f x
 
